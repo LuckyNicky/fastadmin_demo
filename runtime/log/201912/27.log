@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2019-12-27T09:27:34+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002084s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000634s ]

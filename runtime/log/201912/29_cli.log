@@ -1,0 +1,4 @@
+[ 2019-12-29T20:00:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001842s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ 2019-12-29T20:00:54+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.001037s ]
+[ 2019-12-29T20:00:54+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001790s ]
+[ 2019-12-29T20:00:54+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'faems' LIMIT 1 [ RunTime:0.000906s ]

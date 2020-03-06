@@ -1,0 +1,16 @@
+[ 2020-01-05T12:55:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000254s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-05T12:55:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-05T12:55:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002884s ]
+[ 2020-01-05T12:55:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002969s ]
+[ 2020-01-05T12:55:27+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-05T12:55:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ 2020-01-05T12:55:27+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000563s ]
+[ 2020-01-05T12:57:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-05T12:57:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-05T12:57:09+08:00 ][ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002663s ]
+[ 2020-01-05T12:57:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002764s ]
+[ 2020-01-05T12:57:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-05T12:57:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ 2020-01-05T12:57:09+08:00 ][ sql ] [ SQL ] SELECT 1 [ RunTime:0.000371s ]

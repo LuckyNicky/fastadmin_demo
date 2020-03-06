@@ -1,0 +1,1251 @@
+---------------------------------------------------------------
+[ 2019-12-30T08:42:57+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001393s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001791s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001351s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:42:59+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001388s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:43:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:43:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:26+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001048s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:26+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:31+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:31+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:35+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001274s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a122111a84b1860413a842fe7daf4129b188a305' LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `successions`=3,`maxsuccessions`=3,`prevtime`=1577628922,`logintime`=1577666675,`updatetime`=1577666675  WHERE  `id` = 2 [ RunTime:0.001066s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('111b99b12f0005bed1d17ee52e7678bd48c050ff' , 2 , 1577666675 , 1580258675) [ RunTime:0.001028s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:37+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:37+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:43+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:43+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001086s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:45+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:53+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:53+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:54+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:44:54+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001037s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:48:26+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001198s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = '111b99b12f0005bed1d17ee52e7678bd48c050ff' [ RunTime:0.001592s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:48:29+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000683s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:50:43+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001095s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577666675,`logintime`=1577667043,`updatetime`=1577667043  WHERE  `id` = 2 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('5d973f1f6c0cfc99c6ed1d6c6fa1ed6dae3b570c' , 2 , 1577667043 , 1580259043) [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:50:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001229s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '5d973f1f6c0cfc99c6ed1d6c6fa1ed6dae3b570c' LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000635s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:50:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001182s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '5d973f1f6c0cfc99c6ed1d6c6fa1ed6dae3b570c' LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:56:15+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '5d973f1f6c0cfc99c6ed1d6c6fa1ed6dae3b570c' LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = '5d973f1f6c0cfc99c6ed1d6c6fa1ed6dae3b570c' [ RunTime:0.001457s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:56:18+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:58:32+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577667043,`logintime`=1577667512,`updatetime`=1577667512  WHERE  `id` = 2 [ RunTime:0.008707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('7e3c44887deeb373a0ef07b039977f5506138a67' , 2 , 1577667512 , 1580259512) [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:58:33+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2019-12-30T08:58:34+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2019-12-30T12:54:31+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001934s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000829s ]
+---------------------------------------------------------------
+[ 2019-12-30T12:54:37+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002146s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002509s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001365s ]
+---------------------------------------------------------------
+[ 2019-12-30T12:54:46+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002118s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001219s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:27+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ error ] [0]Fatal error: Cannot access empty property
+---------------------------------------------------------------
+[ 2019-12-30T15:21:30+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001093s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:32+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ error ] [0]Fatal error: Cannot access empty property
+---------------------------------------------------------------
+[ 2019-12-30T15:21:36+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001025s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:39+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ error ] [0]Fatal error: Cannot access empty property
+---------------------------------------------------------------
+[ 2019-12-30T15:21:50+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001361s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:51+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001178s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:51+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:54+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' LIMIT 1 [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = '7e3c44887deeb373a0ef07b039977f5506138a67' [ RunTime:0.001768s ]
+---------------------------------------------------------------
+[ 2019-12-30T15:21:57+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001265s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:09:56+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001050s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:10:14+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:10:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001407s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:17:23+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001267s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000771s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:18:16+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577667512,`logintime`=1577697496,`updatetime`=1577697496  WHERE  `id` = 2 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('a1c72f8afa0240f435c6466c87e7dfb8fc4dab07' , 2 , 1577697496 , 1580289496) [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:18:17+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a1c72f8afa0240f435c6466c87e7dfb8fc4dab07' LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:18:17+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a1c72f8afa0240f435c6466c87e7dfb8fc4dab07' LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:18:26+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001123s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a1c72f8afa0240f435c6466c87e7dfb8fc4dab07' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'a1c72f8afa0240f435c6466c87e7dfb8fc4dab07' [ RunTime:0.001623s ]
+---------------------------------------------------------------
+[ 2019-12-30T17:18:29+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[ 2019-12-30T18:57:56+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002662s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000992s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:04:54+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002244s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001439s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:08:58+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001934s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:17:52+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001481s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:18:09+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001557s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:21:06+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001334s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:03+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:07+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001248s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577697496,`logintime`=1577712127,`updatetime`=1577712127  WHERE  `id` = 2 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('c43452d74ef5b8b635f60447b5eec5020a62f46e' , 2 , 1577712127 , 1580304127) [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:08+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c43452d74ef5b8b635f60447b5eec5020a62f46e' LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:08+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001036s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c43452d74ef5b8b635f60447b5eec5020a62f46e' LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001125s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:21+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('Login' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"f53427bcce5ce5ea1bac94e44e2ef65a\",\"username\":\"nicky\",\"captcha\":\"epdr\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712141) [ RunTime:0.001611s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:36+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001295s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"ccad3ce9cdff6c3733f7e1212cc2cb1a\",\"username\":\"admin\",\"captcha\":\"epdr\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712156) [ RunTime:0.002161s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:41+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `loginfailure`=1,`updatetime`=1577712161  WHERE  `id` = 1 [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('Login' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"f068fa3223535dd1c89cbc6fbfc3ec2d\",\"username\":\"admin\",\"captcha\":\"ualq\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712161) [ RunTime:0.002069s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:50+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001420s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"5d2e24a4f2d65e4a636a6ec1dd97c0ee\",\"username\":\"admin\",\"captcha\":\"pbl5\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712170) [ RunTime:0.002334s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:22:56+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001316s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"0df0777fbc9edd61228bfb36b07cb587\",\"username\":\"admin\",\"captcha\":\"pbl5\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712176) [ RunTime:0.001722s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:02+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001407s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"a39d0fb8185d66151ac06c8e5f7c4c93\",\"username\":\"admin\",\"captcha\":\"cvti\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712182) [ RunTime:0.009994s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:09+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `loginfailure`=0,`logintime`=1577712189,`token`='f24b839b-b7a9-4a7c-ad4b-f887cf815ea4',`updatetime`=1577712189  WHERE  `id` = 1 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001155s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('Login' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"0338ecb3a96ae9508690fb9a3a74e0ba\",\"username\":\"admin\",\"captcha\":\"imse\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577712189) [ RunTime:0.002282s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:09+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000753s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001081s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000826s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001875s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001097s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001041s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000939s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:17+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs&lang=zh-cn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001057s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:17+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000875s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:17+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001229s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000850s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:18+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000732s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:18+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001026s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001085s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:18+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?lang=zh-cn&addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002736s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:18+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001111s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:23:25+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001289s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c43452d74ef5b8b635f60447b5eec5020a62f46e' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001773s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:27:45+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001291s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c43452d74ef5b8b635f60447b5eec5020a62f46e' LIMIT 1 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:28:12+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001467s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:32:45+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001216s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000784s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:11+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:18+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001289s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001103s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:26+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:33+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001036s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:37+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1516171614,`logintime`=1577712817,`loginip`='192.168.190.1',`updatetime`=1577712817  WHERE  `id` = 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('a3d604d34bd2edc45d260b0ed1963538b7026a32' , 1 , 1577712817 , 1580304817) [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:38+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001346s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:38+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:42+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:44+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001150s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:47+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000954s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'a3d604d34bd2edc45d260b0ed1963538b7026a32' [ RunTime:0.001800s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:33:50+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000996s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1577713236,`token`='9c0ab5b1-429b-40bf-b49f-8c06c256b22c',`updatetime`=1577713236  WHERE  `id` = 1 [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('Login' , '{\"url\":\"\\/ORqi6xSAY2.php\\/dashboard?ref=addtabs\",\"__token__\":\"d3d31a8c312a91c682228fe2aae743a9\",\"username\":\"admin\",\"captcha\":\"t7ca\"}' , '/ORqi6xSAY2.php/index/login?url=%2FORqi6xSAY2.php%2Fdashboard%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1577713236) [ RunTime:0.001639s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001165s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000858s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000851s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:40:36+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000847s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:47+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs&lang=zh-cn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001285s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000880s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.001097s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001108s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001117s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001043s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?lang=zh-cn&addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001594s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:42:48+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001029s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000680s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:46+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:51+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001234s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577712127,`logintime`=1577713551,`updatetime`=1577713551  WHERE  `id` = 2 [ RunTime:0.009585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' , 2 , 1577713551 , 1580305551) [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:52+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001192s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:52+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001177s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:55+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:55+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000898s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:57+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/changepwd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001222s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:57+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:45:59+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'e8feb72bef2b20a51fa9abf6d50ead7312ca15c4' [ RunTime:0.001789s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:46:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000680s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:46:27+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001086s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:49:20+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:49:29+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:50:17+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001367s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:42+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:52+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000731s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:56+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577713551,`logintime`=1577713916,`updatetime`=1577713916  WHERE  `id` = 2 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('c5bdc745e465718b64832bdc57a33d9d6f480f94' , 2 , 1577713916 , 1580305916) [ RunTime:0.000695s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:57+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001178s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c5bdc745e465718b64832bdc57a33d9d6f480f94' LIMIT 1 [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:57+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001057s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c5bdc745e465718b64832bdc57a33d9d6f480f94' LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:51:59+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'c5bdc745e465718b64832bdc57a33d9d6f480f94' LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'c5bdc745e465718b64832bdc57a33d9d6f480f94' [ RunTime:0.002248s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:52:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000899s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:53:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001048s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:53:08+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000968s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:59:06+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2019-12-30T21:59:10+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001229s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:02:45+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577713916,`logintime`=1577714565,`updatetime`=1577714565  WHERE  `id` = 2 [ RunTime:0.009423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('ccb73facfd649be85c7d5473b6beeb542fe40f39' , 2 , 1577714565 , 1580306565) [ RunTime:0.000737s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:02:46+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:04:41+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001216s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:04:43+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001156s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:04:49+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:04:49+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000903s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:05:12+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' LIMIT 1 [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'ccb73facfd649be85c7d5473b6beeb542fe40f39' [ RunTime:0.002036s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:05:15+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001101s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000782s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:05:24+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001664s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577714565,`logintime`=1577714724,`updatetime`=1577714724  WHERE  `id` = 2 [ RunTime:0.008877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('b0f9be0aa5478d2b186a70c9489392a5eb46197e' , 2 , 1577714724 , 1580306724) [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:05:25+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:06:18+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:06:50+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:06:51+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001062s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:06:51+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001176s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:06:54+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:07:13+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001345s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:07:14+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001038s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:11:03+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:11:32+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:16:01+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001321s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:16:06+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002359s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:16:59+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:17:20+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001108s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:17:59+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:17:59+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001199s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:18:02+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = 'b0f9be0aa5478d2b186a70c9489392a5eb46197e' [ RunTime:0.002043s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:18:05+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001260s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:19:46+08:00 ] 192.168.190.1 POST 192.168.190.10/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky' LIMIT 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1577714724,`logintime`=1577715586,`updatetime`=1577715586  WHERE  `id` = 2 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('0f26cd3ed5689776c15b0d064ef309e3e9168d65' , 2 , 1577715586 , 1580307586) [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:19:47+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:19:48+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000993s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:19:50+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000801s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:20:28+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:20:29+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001394s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:21:33+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:22:24+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001543s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:13+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:16+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000987s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000973s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:41+08:00 ] 192.168.190.1 GET 192.168.190.10/index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001094s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:41+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001248s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:50+08:00 ] 192.168.190.1 POST 192.168.190.10/api/validate/check_username_available.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` WHERE  `username` = 'wang'  AND `id` <> 2 LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:54+08:00 ] 192.168.190.1 POST 192.168.190.10/api/validate/check_username_available.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` WHERE  `username` = 'nicky'  AND `id` <> 2 LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:23:59+08:00 ] 192.168.190.1 POST 192.168.190.10/api/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'nicky'  AND `id` <> 2 LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `nickname`='王凯',`updatetime`=1577715839  WHERE  `id` = 2 [ RunTime:0.001882s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:24:01+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000680s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:25:08+08:00 ] 192.168.190.1 GET 192.168.190.10/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000886s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:44:45+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001243s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:48:37+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001650s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001137s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:51:54+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:51:56+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000957s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:54:10+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001196s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002701s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:54:12+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2019-12-30T22:54:16+08:00 ] 192.168.190.1 GET 192.168.190.10/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '0f26cd3ed5689776c15b0d064ef309e3e9168d65' LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000592s ]

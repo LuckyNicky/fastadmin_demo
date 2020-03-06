@@ -1,0 +1,41 @@
+---------------------------------------------------------------
+[ 2020-02-27T15:49:00+08:00 ] 192.168.98.2 GET localhost:25080/
+[运行时间：0.927984s] [吞吐率：1.08req/s] [内存消耗：2,888.26kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.021950s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.056926s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.056987s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:25080',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.022185s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/wwwroot/www.fa.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000234s ]
+[ info ] [ LOG ] INIT File

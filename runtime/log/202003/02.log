@@ -1,0 +1,160 @@
+---------------------------------------------------------------
+[ 2020-03-02T14:04:08+08:00 ] 192.168.98.2 POST localhost:25080/index/user/register.html?url=
+[运行时间：0.058609s] [吞吐率：17.06req/s] [内存消耗：3,071.47kb] [文件加载：132]
+[ error ] [8]未定义变量: username[/home/www/wwwroot/www.fa.com/application/index/controller/User.php:113]
+---------------------------------------------------------------
+[ 2020-03-02T14:04:10+08:00 ] 192.168.98.2 POST localhost:25080/index/user/register.html?url=
+[运行时间：0.083399s] [吞吐率：11.99req/s] [内存消耗：3,071.48kb] [文件加载：132]
+[ error ] [8]未定义变量: username[/home/www/wwwroot/www.fa.com/application/index/controller/User.php:113]
+---------------------------------------------------------------
+[ 2020-03-02T14:04:14+08:00 ] 192.168.98.2 POST localhost:25080/index/user/register.html?url=
+[运行时间：0.037342s] [吞吐率：26.78req/s] [内存消耗：3,071.48kb] [文件加载：132]
+[ error ] [8]未定义变量: username[/home/www/wwwroot/www.fa.com/application/index/controller/User.php:113]
+---------------------------------------------------------------
+[ 2020-03-02T14:04:20+08:00 ] 192.168.98.2 POST localhost:25080/index/user/register.html?url=
+[运行时间：0.041212s] [吞吐率：24.26req/s] [内存消耗：3,071.48kb] [文件加载：132]
+[ error ] [8]未定义变量: username[/home/www/wwwroot/www.fa.com/application/index/controller/User.php:113]
+---------------------------------------------------------------
+[ 2020-03-02T14:06:52+08:00 ] 192.168.98.2 POST localhost:25080/index/user/register.html?url=
+[运行时间：0.045666s] [吞吐率：21.90req/s] [内存消耗：3,071.29kb] [文件加载：132]
+[ error ] [8]未定义变量: username[/home/www/wwwroot/www.fa.com/application/index/controller/User.php:113]
+---------------------------------------------------------------
+[ 2020-03-02T14:51:07+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.054066s] [吞吐率：18.50req/s] [内存消耗：4,132.88kb] [文件加载：145]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:38:18+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.043471s] [吞吐率：23.00req/s] [内存消耗：3,940.28kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:42:47+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038849s] [吞吐率：25.74req/s] [内存消耗：3,940.48kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:44:35+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.054606s] [吞吐率：18.31req/s] [内存消耗：4,133.22kb] [文件加载：145]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:22+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038932s] [吞吐率：25.69req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:23+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.037499s] [吞吐率：26.67req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:24+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.036304s] [吞吐率：27.55req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:24+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038682s] [吞吐率：25.85req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:24+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.050582s] [吞吐率：19.77req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:25+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.046037s] [吞吐率：21.72req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:25+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.042206s] [吞吐率：23.69req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:25+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.040791s] [吞吐率：24.52req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:26+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.042950s] [吞吐率：23.28req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:26+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038568s] [吞吐率：25.93req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:26+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.044438s] [吞吐率：22.50req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:27+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.043949s] [吞吐率：22.75req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:27+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038881s] [吞吐率：25.72req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:27+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.040409s] [吞吐率：24.75req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:27+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038532s] [吞吐率：25.95req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:28+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.041213s] [吞吐率：24.26req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:28+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.040387s] [吞吐率：24.76req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:28+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038481s] [吞吐率：25.99req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:29+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.044101s] [吞吐率：22.68req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:30+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.036406s] [吞吐率：27.47req/s] [内存消耗：3,940.33kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:785]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:42+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.045087s] [吞吐率：22.18req/s] [内存消耗：4,132.77kb] [文件加载：145]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:788]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:44+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.038676s] [吞吐率：25.86req/s] [内存消耗：3,939.94kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:788]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:44+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.039429s] [吞吐率：25.36req/s] [内存消耗：3,939.94kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:788]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:45+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.058361s] [吞吐率：17.13req/s] [内存消耗：3,939.94kb] [文件加载：143]
+[ error ] [8]未定义变量: url[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:788]
+---------------------------------------------------------------
+[ 2020-03-02T16:45:59+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.041278s] [吞吐率：24.23req/s] [内存消耗：4,126.27kb] [文件加载：145]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:00+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.118812s] [吞吐率：8.42req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:00+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.041139s] [吞吐率：24.31req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:01+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.121844s] [吞吐率：8.21req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:01+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.040157s] [吞吐率：24.90req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:02+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.110032s] [吞吐率：9.09req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]
+---------------------------------------------------------------
+[ 2020-03-02T16:46:04+08:00 ] 192.168.98.2 GET localhost:25080/index/user/detail.html
+[运行时间：0.135500s] [吞吐率：7.38req/s] [内存消耗：3,941.54kb] [文件加载：143]
+[ error ] [8]未定义变量: captchaType[/home/www/wwwroot/www.fa.com/runtime/temp/34e69f349ab039203d7f188999a25f21.php:822]

@@ -1,0 +1,108 @@
+---------------------------------------------------------------
+[ 2020-02-09T15:47:39+08:00 ] 192.168.98.1 GET 192.168.98.10/
+[运行时间：1.867794s] [吞吐率：0.54req/s] [内存消耗：2,880.84kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.114031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.093550s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.093602s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'serverType=nginx; order=id%20desc; memRealUsed=458; mem-before=458/1819%20%28MB%29; memSize=1819; conterError=; one=0; five=0.01; fifteen=0.05; upNet=0.39; downNet=0.63; BT_PANEL=1a0f72ea09e4edfd49ebeb321b8f710084fdc804',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.98.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010921s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/wwwroot/www.fa.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000507s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-09T15:47:40+08:00 ] 192.168.98.1 GET 192.168.98.10/favicon.ico
+[运行时间：0.134808s] [吞吐率：7.42req/s] [内存消耗：2,217.18kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000367s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.004093s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004126s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'serverType=nginx; order=id%20desc; memRealUsed=458; mem-before=458/1819%20%28MB%29; memSize=1819; conterError=; one=0; five=0.01; fifteen=0.05; upNet=0.39; downNet=0.63; BT_PANEL=1a0f72ea09e4edfd49ebeb321b8f710084fdc804',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.98.10/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.98.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000297s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-09T15:47:40+08:00 ] 192.168.98.1 GET 192.168.98.10/favicon.ico
+[运行时间：0.059526s] [吞吐率：16.80req/s] [内存消耗：2,217.21kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000259s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003248s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003284s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'serverType=nginx; order=id%20desc; memRealUsed=458; mem-before=458/1819%20%28MB%29; memSize=1819; conterError=; one=0; five=0.01; fifteen=0.05; upNet=0.39; downNet=0.63; BT_PANEL=1a0f72ea09e4edfd49ebeb321b8f710084fdc804',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.98.10/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.98.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000320s ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2004 @@
+---------------------------------------------------------------
+[ 2020-01-05T15:21:45+08:00 ] 192.168.190.1 GET 192.168.190.10/index.php?s=/captcha&r=0.6775059087517394
+[运行时间：0.034597s] [吞吐率：28.90req/s] [内存消耗：2,219.22kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003843s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003877s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.6775059087517394',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /home/www/wwwroot/www.fa.com/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000104s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T15:21:52+08:00 ] 192.168.190.1 POST 192.168.190.10/ORqi6xSAY2.php/index/login
+[运行时间：0.088272s] [吞吐率：11.33req/s] [内存消耗：3,884.82kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003586s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003630s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.190.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '91',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'be2bc2eecec7a14f272a266c117decbe',
+  'username' => 'admin',
+  'password' => 'admin123456',
+  'captcha' => '7w7d',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002427s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ /home/www/wwwroot/www.fa.com/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005030s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1578208912,`token`='6c108b8e-3443-4e3d-92d9-cba8fe6360c8',`updatetime`=1578208912  WHERE  `id` = 1 [ RunTime:0.005458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001775s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('Login' , '{\"__token__\":\"be2bc2eecec7a14f272a266c117decbe\",\"username\":\"admin\",\"captcha\":\"7w7d\"}' , '/ORqi6xSAY2.php/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36' , '192.168.190.1' , 1578208912) [ RunTime:0.002415s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:21:53+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[运行时间：0.160899s] [吞吐率：6.22req/s] [内存消耗：4,187.64kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003845s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003891s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000209s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001054s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002015s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.001448s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:21:53+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[运行时间：0.067969s] [吞吐率：14.71req/s] [内存消耗：3,984.29kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002650s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002723s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001551s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000141s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001357s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001097s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:21:53+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1578208913
+[运行时间：0.043067s] [吞吐率：23.22req/s] [内存消耗：3,977.98kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001861s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001888s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1578208913',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001164s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000121s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001469s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:21:53+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1578208912
+[运行时间：0.105779s] [吞吐率：9.45req/s] [内存消耗：3,977.98kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003728s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003776s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1578208912',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002267s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000118s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003948s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001412s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs&lang=zh-cn
+[运行时间：0.093911s] [吞吐率：10.65req/s] [内存消耗：3,685.70kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.004898s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004947s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+  'lang' => 'zh-cn',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003367s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000134s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001799s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001476s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[运行时间：0.157118s] [吞吐率：6.36req/s] [内存消耗：4,241.96kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003499s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003546s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002134s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000935s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.001699s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:10+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[运行时间：0.067850s] [吞吐率：14.74req/s] [内存消耗：4,037.00kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003184s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003218s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001688s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000178s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000273s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001940s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002417s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:11+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1578208930
+[运行时间：0.061000s] [吞吐率：16.39req/s] [内存消耗：4,033.09kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002639s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002670s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1578208930',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001788s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000093s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000948s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000922s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:11+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1578208930
+[运行时间：0.096008s] [吞吐率：10.42req/s] [内存消耗：4,031.74kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.004390s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004485s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1578208930',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002989s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000197s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000428s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003022s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001308s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:11+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?lang=zh-cn&addtabs=1
+[运行时间：0.073056s] [吞吐率：13.69req/s] [内存消耗：4,060.41kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002417s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002449s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?lang=zh-cn&ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'zh-cn',
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003890s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2020-01-05T15:22:12+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1578208931
+[运行时间：0.063151s] [吞吐率：15.84req/s] [内存消耗：4,032.24kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002959s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002994s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?lang=zh-cn&addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1578208931',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001321s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000059s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001750s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001270s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:22:23+08:00 ] 192.168.190.1 GET 192.168.190.10/cms
+[运行时间：0.056777s] [吞吐率：17.61req/s] [内存消耗：4,125.52kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003068s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003094s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /home/www/wwwroot/www.fa.com/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001504s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000719s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_archives` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `fa_cms_channel` WHERE  `id` IN (2) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_model` [ RunTime:0.000922s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:22:54+08:00 ] 192.168.190.1 GET 192.168.190.10/index/cms.archives/post
+[运行时间：0.058869s] [吞吐率：16.99req/s] [内存消耗：3,994.38kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002934s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002963s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cms.archives',
+    2 => 'post',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/cms',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001201s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/cms/archives.php
+[ info ] [ RUN ] app\index\controller\cms\Archives->post[ /home/www/wwwroot/www.fa.com/application/index/controller/cms/Archives.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/index/view/cms/archives/post.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'channelOptions',
+  4 => 'archives',
+  5 => 'categoryList',
+  6 => 'title',
+  7 => 'model',
+) ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/addons/cms/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @user_sidenav_after [ RunTime:0.000201s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000085s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_channel` WHERE  `type` <> 'link'  AND (  ((type='list' AND iscontribute='1') OR type='channel') ) ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:22:55+08:00 ] 192.168.190.1 GET 192.168.190.10/index/ajax/lang?callback=define&controllername=cms.archives&v=1578212574
+[运行时间：0.039046s] [吞吐率：25.61req/s] [内存消耗：3,703.48kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001649s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001673s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/index/cms.archives/post',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'cms.archives',
+  'v' => '1578212574',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001166s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/cms/archives.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000190s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:22:55+08:00 ] 192.168.190.1 POST 192.168.190.10/index/cms.archives/get_channel_fields
+[运行时间：0.061929s] [吞吐率：16.15req/s] [内存消耗：3,989.21kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003649s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003687s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cms.archives',
+    2 => 'get_channel_fields',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/index/cms.archives/post',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://192.168.190.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+)
+[ info ] [ PARAM ] array (
+  'channel_id' => '2',
+  'archives_id' => '0',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002899s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/index/lang/zh-cn/cms/archives.php
+[ info ] [ RUN ] app\index\controller\cms\Archives->get_channel_fields[ /home/www/wwwroot/www.fa.com/application/index/controller/cms/Archives.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/index/view/cms/archives/fields.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'fields',
+  4 => 'values',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_model` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `channel`.`id`,`channel`.`type`,`channel`.`model_id`,`channel`.`parent_id`,`channel`.`name`,`channel`.`image`,`channel`.`flag`,`channel`.`keywords`,`channel`.`description`,`channel`.`diyname`,`channel`.`outlink`,`channel`.`items`,`channel`.`weigh`,`channel`.`channeltpl`,`channel`.`listtpl`,`channel`.`showtpl`,`channel`.`pagesize`,`channel`.`iscontribute`,`channel`.`isnav`,`channel`.`createtime`,`channel`.`updatetime`,`channel`.`status`,model.id AS model__id,model.name AS model__name,model.table AS model__table,model.fields AS model__fields,model.channeltpl AS model__channeltpl,model.listtpl AS model__listtpl,model.showtpl AS model__showtpl,model.createtime AS model__createtime,model.updatetime AS model__updatetime,model.setting AS model__setting FROM `fa_cms_channel` `channel` INNER JOIN `fa_cms_model` `model` ON `channel`.`model_id`=`model`.`id` WHERE  `channel`.`id` = '2' LIMIT 1 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_fields` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_fields` WHERE  `model_id` = 1  AND `iscontribute` = 1  AND `status` = 'normal' ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:23:08+08:00 ] 192.168.190.1 GET 192.168.190.10/cms/
+[运行时间：0.052856s] [吞吐率：18.92req/s] [内存消耗：4,125.59kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001646s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001668s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/cms',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /home/www/wwwroot/www.fa.com/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001125s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000818s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_archives` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `fa_cms_channel` WHERE  `id` IN (2) [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_model` [ RunTime:0.001303s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:23:10+08:00 ] 192.168.190.1 GET 192.168.190.10/cms/
+[运行时间：0.049775s] [吞吐率：20.09req/s] [内存消耗：4,125.59kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001795s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001819s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/cms/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /home/www/wwwroot/www.fa.com/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001099s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000076s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_archives` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `fa_cms_channel` WHERE  `id` IN (2) [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_model` [ RunTime:0.000896s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:26:42+08:00 ] 192.168.190.1 GET 192.168.190.10/cms/
+[运行时间：0.054605s] [吞吐率：18.31req/s] [内存消耗：4,125.59kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002607s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002634s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /home/www/wwwroot/www.fa.com/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001241s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a150e9743376477fb7ce87dcb161526807721a0c' LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_channel` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_archives` [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `fa_cms_channel` WHERE  `id` IN (2) [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_cms_model` [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?ref=addtabs
+[运行时间：0.042255s] [吞吐率：23.67req/s] [内存消耗：3,662.84kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002048s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002073s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001036s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000092s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001059s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/index/index
+[运行时间：0.075412s] [吞吐率：13.26req/s] [内存消耗：4,242.02kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001599s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001621s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001097s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000065s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000064s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000932s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1
+[运行时间：0.059653s] [吞吐率：16.76req/s] [内存消耗：4,037.92kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002110s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002146s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002057s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /home/www/wwwroot/www.fa.com/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /home/www/wwwroot/www.fa.com/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000092s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001125s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/bootstrap.css.map
+[运行时间：0.051461s] [吞吐率：19.43req/s] [内存消耗：2,216.88kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002132s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002175s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000076s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/bootstrap.css.map
+[运行时间：0.043645s] [吞吐率：22.91req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.004058s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004107s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/fastadmin.css.map
+[运行时间：0.083350s] [吞吐率：12.00req/s] [内存消耗：2,216.88kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002780s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002883s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000080s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/backend.css.map
+[运行时间：0.105577s] [吞吐率：9.47req/s] [内存消耗：2,216.84kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003787s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003814s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/skins/skin-green.css.map
+[运行时间：0.092410s] [吞吐率：10.82req/s] [内存消耗：2,216.80kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.020572s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020617s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/backend.css.map
+[运行时间：0.035592s] [吞吐率：28.10req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002791s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002821s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/fastadmin.css.map
+[运行时间：0.068748s] [吞吐率：14.55req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002958s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002993s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000081s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:58+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/skins/skin-green.css.map
+[运行时间：0.050169s] [吞吐率：19.93req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002711s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002749s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/fastadmin.css.map
+[运行时间：0.069742s] [吞吐率：14.34req/s] [内存消耗：2,216.88kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.004164s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004215s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000086s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/bootstrap.css.map
+[运行时间：0.093590s] [吞吐率：10.68req/s] [内存消耗：2,216.88kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003045s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003161s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/skins/skin-green.css.map
+[运行时间：0.097885s] [吞吐率：10.22req/s] [内存消耗：2,216.80kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.005130s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005204s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/skins/skin-green.css.map
+[运行时间：0.039764s] [吞吐率：25.15req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003684s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003729s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/backend.css.map
+[运行时间：0.120134s] [吞吐率：8.32req/s] [内存消耗：2,216.84kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.003743s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003792s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000220s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/fastadmin.css.map
+[运行时间：0.094108s] [吞吐率：10.63req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001981s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002006s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/backend.css.map
+[运行时间：0.062344s] [吞吐率：16.04req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002866s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002896s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000077s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/assets/css/bootstrap.css.map
+[运行时间：0.093249s] [吞吐率：10.72req/s] [内存消耗：2,216.72kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002297s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002327s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000058s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=index&v=1578213358
+[运行时间：0.070239s] [吞吐率：14.24req/s] [内存消耗：4,034.02kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.002663s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002710s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1578213358',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001589s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000065s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004526s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001051s ]
+---------------------------------------------------------------
+[ 2020-01-05T16:35:59+08:00 ] 192.168.190.1 GET 192.168.190.10/ORqi6xSAY2.php/ajax/lang?callback=define&controllername=dashboard&v=1578213358
+[运行时间：0.072180s] [吞吐率：13.85req/s] [内存消耗：4,032.66kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001858s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001880s ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=b59uf1p8eq6us9b16hi8bjlb10; uid=2; token=fa6f1ef5-abdd-4bf9-bb88-6c1b93268cf8; think_var=zh-cn',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.190.10/ORqi6xSAY2.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3269.3 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '192.168.190.10',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1578213358',
+)
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001255s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /home/www/wwwroot/www.fa.com/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /home/www/wwwroot/www.fa.com/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000187s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000264s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;dbname=www_fa_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001618s ]

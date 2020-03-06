@@ -1,0 +1,6 @@
+<?php
+//000000000000
+ exit();?>
+a:2:{i:0;a:23:{s:2:"id";i:5;s:8:"model_id";i:1;s:10:"diyform_id";i:0;s:4:"name";s:6:"author";s:4:"type";s:6:"string";s:5:"title";s:6:"作者";s:7:"content";s:28:"value1|title1
+value2|title2";s:12:"defaultvalue";s:0:"";s:4:"rule";s:0:"";s:3:"msg";s:0:"";s:2:"ok";s:0:"";s:3:"tip";s:0:"";s:8:"decimals";i:0;s:6:"length";i:50;s:7:"minimum";i:0;s:7:"maximum";i:0;s:6:"extend";s:0:"";s:5:"weigh";i:136;s:10:"createtime";i:1508990735;s:10:"updatetime";i:1553759396;s:12:"iscontribute";i:1;s:8:"isfilter";i:1;s:6:"status";s:6:"normal";}i:1;a:23:{s:2:"id";i:7;s:8:"model_id";i:1;s:10:"diyform_id";i:0;s:4:"name";s:5:"price";s:4:"type";s:6:"number";s:5:"title";s:6:"价格";s:7:"content";s:28:"value1|title1
+value2|title2";s:12:"defaultvalue";s:1:"0";s:4:"rule";s:0:"";s:3:"msg";s:0:"";s:2:"ok";s:0:"";s:3:"tip";s:0:"";s:8:"decimals";i:2;s:6:"length";i:10;s:7:"minimum";i:0;s:7:"maximum";i:0;s:6:"extend";s:0:"";s:5:"weigh";i:140;s:10:"createtime";i:1508992093;s:10:"updatetime";i:1553759366;s:12:"iscontribute";i:1;s:8:"isfilter";i:1;s:6:"status";s:6:"normal";}}
