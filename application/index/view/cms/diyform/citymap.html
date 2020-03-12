@@ -1,0 +1,20 @@
+{layout name="common/layout" /}
+
+<div class="container" id="content-container">
+    <h1 class="category-title">
+        {cms:channel name="name" /}
+        <div class="more pull-right">
+            <ol class="breadcrumb">
+                <!-- S 面包屑导航 -->
+                {cms:breadcrumb id="item"}
+                <li><a href="{$item.url}">{$item.name}</a></li>
+                {/cms:breadcrumb}
+                <!-- E 面包屑导航 -->
+            </ol>
+        </div>
+    </h1>
+
+    <div class="panel panel-default index-gallary" onload="$(document).domain = 'https://web.innodealing.com'">
+        <iframe src="/quote-web/#/bond/city-investment-bond", style="width: 100%; height: 500px"></iframe>
+    </div>
+</div>

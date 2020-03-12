@@ -1,4 +1,4 @@
 <?php
 //000000000000
  exit();?>
-a:1:{i:0;a:23:{s:2:"id";i:5;s:4:"type";s:4:"list";s:8:"model_id";i:1;s:9:"parent_id";i:1;s:4:"name";s:6:"投资";s:5:"image";s:0:"";s:4:"flag";s:9:"recommend";s:8:"seotitle";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:7:"diyname";s:10:"investment";s:7:"outlink";s:0:"";s:5:"items";i:8;s:5:"weigh";i:0;s:10:"channeltpl";s:12:"channel.html";s:7:"listtpl";s:14:"list_news.html";s:7:"showtpl";s:14:"show_news.html";s:8:"pagesize";i:10;s:12:"iscontribute";i:1;s:5:"isnav";i:1;s:10:"createtime";i:1508990716;s:10:"updatetime";i:1523717837;s:6:"status";s:6:"normal";}}
+a:0:{}
